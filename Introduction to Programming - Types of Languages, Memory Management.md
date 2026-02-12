@@ -155,7 +155,7 @@ If a language supports first-class functions, then:
 
 Example concept:
 
->`a = 10`
+> a = 10
 > b = a
 
 Just like variables can be reassigned, functions can also behave similarly in functional programming.
