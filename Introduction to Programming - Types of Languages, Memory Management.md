@@ -230,11 +230,13 @@ It is not:
 
 So we create a custom data type called class.
 
-`class Student {
+```
+class Student {
    name
    rollNumber
    marks
-}`
+}
+```
 
 Each student becomes an object.
 
@@ -300,8 +302,8 @@ Type is checked at **compile time**.
 
 Example (Java):
 
-`int a = 10;
-a = "kunal";   // Error`
+    int a = 10;
+    a = "kunal";   // Error`
 
 Why?\
 Because a was declared as integer.
@@ -345,8 +347,8 @@ Type is checked at **runtime**.
 
 Example (Python):
 
-`a = 10
-a = "kunal"`
+    `a = 10
+    a = "kunal"`
 
 No error.
 
@@ -362,11 +364,11 @@ In dynamic typing:\
 Variable can point to different objects over time.
 
 Example:
-
-`a = 10
+```
+a = 10
 a = 13.5
-a = "hello"`
-
+a = "hello"
+```
 All valid.
 
 * * * * *
@@ -423,7 +425,7 @@ Two types of memory discussed:
 🔹 Example
 ----------
 
-`a = 10`
+    `a = 10`
 
 -   a is stored in stack
 
@@ -467,18 +469,18 @@ All references see same change.
 
 Example:
 
-`a = [1,3,5]
-b = a`
+    `a = [1,3,5]
+    b = a`
 
 Both point to same list.
 
 If:
 
-`a[0] = 99`
+    `a[0] = 99`
 
 Then:
 
-`b → [99,3,5]`
+    `b → [99,3,5]`
 
 Because they share same object.
 
@@ -489,8 +491,8 @@ Because they share same object.
 
 If object has no reference pointing to it:
 
-`a = 10
-a = 37`
+    `a = 10
+    a = 37`
 
 Now:
 
@@ -508,8 +510,8 @@ Garbage Collector automatically removes unused objects.
 
 Example:
 
-`a = 10
-a = "kunal"`
+    `a = 10
+    a = "kunal"`
 
 Internally:
 
