@@ -347,7 +347,7 @@ Type is checked at **runtime**.
 
 Example (Python):
 
-    `a = 10
+    a = 10
     a = "kunal"`
 
 No error.
@@ -425,7 +425,7 @@ Two types of memory discussed:
 🔹 Example
 ----------
 
-    `a = 10`
+    a = 10
 
 -   a is stored in stack
 
@@ -469,18 +469,18 @@ All references see same change.
 
 Example:
 
-    `a = [1,3,5]
-    b = a`
+    a = [1,3,5]
+    b = a
 
 Both point to same list.
 
 If:
 
-    `a[0] = 99`
+    a[0] = 99
 
 Then:
 
-    `b → [99,3,5]`
+    b → [99,3,5]
 
 Because they share same object.
 
@@ -491,8 +491,8 @@ Because they share same object.
 
 If object has no reference pointing to it:
 
-    `a = 10
-    a = 37`
+    a = 10
+    a = 37
 
 Now:
 
@@ -510,8 +510,8 @@ Garbage Collector automatically removes unused objects.
 
 Example:
 
-    `a = 10
-    a = "kunal"`
+    a = 10
+    a = "kunal"
 
 Internally:
 
